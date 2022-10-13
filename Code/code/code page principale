@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BubbleMyTea</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/css/signup.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+         
+</head>
+
+<body> 
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href='/'>
+    <img class='logo' src="/image/logo.png" alt="logo"/>
+</a>
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+        </ul>
+        <a class="navbar-brand mx-auto titre" href="/">BubbleMyTea</a>
+        <form class="d-flex">
+        <a class="btn btn-outline-success me-2" href="signup" type="submit">Inscription</a>
+        <a class="btn btn-outline-success" href="login" type="submit">Connexion</a>
+
+        </form>
+        </div>
+    </div>
+    </nav>
+        
+        
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<img class='logo' src="/image/logo.png" alt="logo"/>
+</a>
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+      </ul>
+      <a class="navbar-brand mx-auto titre" href="/">BubbleMyTea</a>
+      <form class="d-flex">
+      <a class="btn btn-outline-success me-2" href="signup" type="submit">Inscription</a>
+      <a class="btn btn-outline-success" href="login" type="submit">Connexion</a>
+
+      </form>
+    </div>
+  </div>
+</nav> -->
+
+<div id="carouselExemple" class="carousel slide w-100" data-ride="carousel" data-interval="5000">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExemple" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExemple" data-slide-to="1"></li>
+    <li data-target="#carouselExemple" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+
+        <a href="modal_produit.html">       
+          <img src="https://www.bubblevie.fr/wp-content/uploads/elementor/thumbs/bubble-tea-cafe-okaeacu48ej86bg6qc1m69g87iiav5r3e7afldkuo0.png" class="d-block">
+        </a>
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Le coffee-spéculoos</h5>
+          <p>Craquez pour l'incontournable de la semaine</p>
+        </div>
+
+    </div>
+        
+    <div class="carousel-item">
+      <a href="modal_produit.html">
+        <img src="https://www.bubblevie.fr/wp-content/uploads/elementor/thumbs/bubble-tea-nutella-okaf3qajt0qszms67j4wlclshzq8end4fl7oho0y80.png" class="d-block">
+      </a>
+
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Le creamy-nuts</h5>
+        <p>Découvrez notre nouveauté de la semaine</p>
+      </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+      <a href="modal_produit.html">
+        <img src="https://www.bubblevie.fr/wp-content/uploads/elementor/thumbs/bubble-tea-bombay-okaea698wka7x1pqsr786t401teqda0z1aq18fulvk.png" class="d-block">
+      </a>
+
+      <div class="carousel-caption d-none d-md-block">
+          <h5>Le rasberry-bubble</h5>
+          <p>Optez pour le côté fruité</p>
+      </div>
+
+    </div>
+
+  </div>
+
+      <a href="#carouselExemple" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="ture"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+
+      <a href="#carouselExemple" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+
+<script>
+$('.carousel').carousel({
+
+  pause: "null"
+})
+</script>
+
+
+
+    
+</body>
+</html>
