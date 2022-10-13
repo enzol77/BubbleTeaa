@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BubbleMyTea</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/css/signup.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+         
+</head>
+
+<body> 
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href='/'>
+    <img class='logo' src="/image/logo.png" alt="logo"/>
+</a>
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+        </ul>
+        <a class="navbar-brand mx-auto titre" href="/">BubbleMyTea</a>
+        <form class="d-flex">
+        <a class="btn btn-outline-success me-2" href="signup" type="submit">Inscription</a>
+        <a class="btn btn-outline-success" href="login" type="submit">Connexion</a>
+
+        </form>
+        </div>
+    </div>
+    </nav>
+        
+        
+<!-- Code Modal Napoli principal--> 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">🌿 NAPOLI 🌿</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Découvrez les saveurs d'italie avec le 🌿 NAPOLI 🌿 4,50€
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal Napoli -->
+
+
+
+<!-- Code Modal Coconut -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">🥥 COCONUT ISLAND 🥥</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Retrouvez-vous sur une île grâce au goût spécial 🥥 COCONUT ISLAND 🥥4,50€
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal Coconut -->
+
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-20 p-lg-5 mx-auto my-10">
+        <h1 class="display-4 font-weight-normal">Faîtes-vous livrer !</h1>
+        <p class="lead font-weight-normal">BubbleMyTea vous propose de passer un moment agréable, chaleureux et surtout délicieux.</p>
+        <a class="btn btn-outline-secondary" href="/">Cliquez ici</a>
+
+
+    <!-- Bouton Napoli-->
+  <a type="button" class="nav-link btn" data-toggle="modal" data-target="#exampleModal">
+    <!-- fin Bouton Napoli (fermer la balise a) -->
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-danger mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">🌿 NAPOLI 🌿</h2>
+          <p class="lead">Thé vert au jasmin, Basilic, Mandarine et perles passion.</p>
+          <img class='BBT1' src="/image/BubbleTea.png"/> 
+        </div>
+      </div>
+      </a> 
+      
+ <!-- Bouton Coconut -->
+ <a type="button" class="nav-link btn" data-toggle="modal" data-target="#exampleModal1">
+ <!-- Fin Bouton Coconut -->
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">🥥 COCONUT ISLAND 🥥</h2>
+          <p class="lead">Thé vert au jasmin, Lait de coco, Coco et Gelée de coco.</p>
+          <img class='BBT3' src="/image/BubbleTea3.png"/>
+        </div>
+      </div>
+    </div>
+</a>
+    <!-- Bouton Detox --> 
+
+    <!-- Fin Bouton Detox -->
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">🥒 DETOX 🥒</h2>
+          <p class="lead">Thé vert au jasmin, limonade maison, eau de comcombre et Aloe vera.</p>
+          <img class='BBT' src="/image/BubbleTea2.png"/>
+        </div>
+
+<!-- Bouton Nutella -->
+
+<!-- Fin Bouton Nutella -->
+      </div>
+      <div class="bg-danger mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">🍫 NUTELLA 🍫</h2>
+          <p class="lead">Gourmand thé noir lacté au Nutella et noisettes infusées, perles de tapioca et chantilly caramélisée.</p>
+          <img class='BBT4' src="/image/BubbleTea4.png"/>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-danger mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">🔥 TONIC 🔥</h2>
+          <p class="lead">Thé vert au jasmin, Gingembre, Citron vert et Perles litchi.</p>
+          <img class='BBT5' src="/image/BubbleTea5.png"/>
+        </div>
+        
+      </div>
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">🍪 COOKIES 🍪</h2>
+          <p class="lead">Thé noir au lait aux éclats de cookies, caramel maison et perles de tapioca.</p>
+          <img class='BBT6' src="/image/BubbleTea6.png"/>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; Enzo, Styven, Maïssane </small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Business</a></li>
+            <li><a class="text-muted" href="#">Education</a></li>
+            <li><a class="text-muted" href="#">Government</a></li>
+            <li><a class="text-muted" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+        
+</body>
+</html>
